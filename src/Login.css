@@ -1,0 +1,95 @@
+.login{
+    background-color: rgb(230,230,250);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* App-Logo is for React Logo which included @media and @keyframes for Logo Spinning */
+.login__logo {
+    height: 10vmin;
+    pointer-events: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+  
+@media (prefers-reduced-motion: no-preference) {
+    .login__logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.login__container{
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    background-color: white;
+}
+
+.login__container > h1{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.login__container > form > h5{
+    margin-bottom: 5px;
+}
+
+.login__container > form > input{
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+}
+
+.login__container > p{
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.login__signInButton {
+    background:  rgb(119, 44, 232);
+    transition: background-color 0.01s ease-out 10ms;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: rgb(92, 22, 197) rgb(145 70 255);
+    color: white;
+}
+
+.login__signInButton:hover {
+    background-color: rgb(92, 22, 197);
+}
+
+.login__registerButton{
+    border-radius: 2px;
+    transition: background-color 0.01s ease-out 10ms;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: darkgray;
+}
+
+.login__registerButton:hover {
+    background-color: rgb(253, 208, 35);
+}
