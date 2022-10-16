@@ -11,7 +11,7 @@ An e-commerce platform for students to purchase merch from different universitie
 6. About & Services Page - https://scholar-store.web.app/about
 
 ## Technologies Used:
-React.js, React Context API, Firebase, Express, Node.js, Stripe (For Payments), HTML5, CSS3, Material UI.
+React.js, Redux / React Context API, Firebase, Express, Node.js, Stripe (For Payments), HTML5, CSS3, Material UI.
 
 ## I have used:
 
