@@ -1,3 +1,34 @@
+# Scholar Store
+
+An e-commerce platform for students to purchase merch from different universities across the nation.
+
+## PROJECT LINK: https://scholar-store.web.app/
+1. Login / Register Page - https://scholar-store.web.app/login
+2. Home Page - https://scholar-store.web.app/
+3. Checkout Page - https://scholar-store.web.app/checkout
+4. Payments Page - https://scholar-store.web.app/payment
+5. Past Orders Page - https://scholar-store.web.app/orders
+6. About & Services Page - https://scholar-store.web.app/about
+
+## Technologies Used:
+React.js, React Context API, Firebase, Express, Node.js, Stripe (For Payments), HTML5, CSS3, Material UI.
+
+## I have used:
+
+1. Firebase for Authentication, Database, Functions and Hosting.
+2. HTML5, CSS3, React and Material UI for creating a Fully Responsive Web Application.
+3. Stripe for processing fully functional real-time payments and connect it to FireStore Database.
+
+## Functionalities Offered:
+1. Login Page & User Authentication
+2. Register with University Email Address Only (So only students can access the site)
+3. Add and Remove from Shopping Basket
+4. Real-time Checkout and Payment Processing using Stripe
+5. Review Past Orders
+6. Easy Sign-In and Sign-Out options
+7. Explore websites of different university stores option within the product itself
+8. Fully Responsive Web Application used in all device formats
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
