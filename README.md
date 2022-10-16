@@ -20,14 +20,14 @@ React.js, React Context API, Firebase, Express, Node.js, Stripe (For Payments), 
 3. Stripe for processing fully functional real-time payments and connect it to FireStore Database.
 
 ## Functionalities Offered:
-1. Login Page & User Authentication
+1. Log-In & User Authentication Flow with Firebase Authentication
 2. Register with University Email Address Only (So only students can access the site)
-3. Add and Remove from Shopping Basket
-4. Real-time Checkout and Payment Processing using Stripe
-5. Review Past Orders
+3. Checkout/Basket Page to Add/Remove products and change their quantities from the basket
+4. Real-time Checkout and Payment Processing for all the order in basket using Stripe Payments
+5. Review Past Orders with all the order details using Cloud Firestore Database
 6. Easy Sign-In and Sign-Out options
-7. Explore websites of different university stores option within the product itself
-8. Fully Responsive Web Application used in all device formats
+7. Explore websites of different University Stores option within the products itself
+8. Fully Responsive Web Application used in all device formats and deployed it using Firebase Hosting
 
 # Getting Started with Create React App
 
