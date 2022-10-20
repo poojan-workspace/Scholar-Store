@@ -38,7 +38,7 @@ function Payment() {
     getClientSecret();
   }, [basket]);
 
-  console.log("The Sceret is >>> ", clientSecret);
+  // console.log("The Sceret is >>> ", clientSecret);
 
   // Handles the Submit Input from the CardElement or Card Form
   const handleSubmit = async (event) => {
