@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { auth } from "./firebase";
 import "./Login.css";
 import logo from "./logo.svg";
+import social from "./ASU_SM.svg";
 
 function Login() {
   const navigate = useNavigate();
@@ -88,6 +89,12 @@ function Login() {
           Create your Account
         </button>
       </div>
+      <a href="https://devils-den-1.vercel.app/" target="_blank">
+        <img className="login__myASUImage" src={social} alt="" />
+        <h4 className="login__myASU">
+          Visit MyASU Social Media Platform
+        </h4>
+      </a>
     </div>
   );
 }

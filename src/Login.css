@@ -93,3 +93,18 @@
 .login__registerButton:hover {
     background-color: rgb(253, 208, 35);
 }
+
+.login__myASUImage {
+    height: 50px;
+    pointer-events: none;
+    margin-top: 20px;
+    width: 50px;
+    margin-left: 70px;
+    margin-bottom: 5px;
+}
+
+.login__myASU{
+    font-size: 12px;
+    text-align: center;
+    color: darkred;
+}
